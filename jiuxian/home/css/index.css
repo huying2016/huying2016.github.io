@@ -1,0 +1,1712 @@
+*{
+    font-family: 微软雅黑;
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: #999;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #F9F9F9;
+
+}
+.top{
+    background: #F2F2F2;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 26px;
+    height: 26px;
+    color: #999;
+}
+.main .left{
+    float: left;
+}
+.main .right{
+    float: right;
+}
+.red{
+    color: #c00;
+}
+.main .right .cart{
+    width: 15px;
+    height: 15px;
+    background: url("../images/public-24.png") no-repeat -18px 4px;
+    padding-left: 17px;
+}
+.main .right .shouji{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../images/public-24.png") no-repeat -62px 3px;
+}
+.main .right .web .daohang{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../images/public-24.png") no-repeat -80px 4px;
+}
+.main .right .fuwu{
+    width: 15px;
+    height: 15px;
+    background: url("../images/public-24.png") no-repeat -90px -262px;
+    padding-left:17px;
+}
+.main .left span,.main .left a{
+    margin-right:5px;
+}
+.main .right span,.main .right a{
+    margin-left:5px;
+
+}
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner img{
+    display: block;
+    margin-left: -250px;
+}
+.xsj{
+    display: inline-block;
+    padding-right: 8px;
+    width: 9px;
+    height: 8px;
+    background: url("../images/public-24.png") no-repeat -95px 2px;
+    box-sizing: unset;
+
+}
+.xsj2{
+    display: inline-block;
+    padding-right:8px;
+    -webkit-transform:rotate(180deg);
+    width: 9px;
+    height: 8px;
+    background: url("../images/public-24.png") no-repeat -95px 3px;
+    box-sizing: unset;
+}
+.main .right .jiuxian{
+    width: 70px;
+    float: left;
+}
+
+.main .right .jiuxian .jiuxianDropDown{
+    width: 70px;
+    position: absolute;
+    background: #fff;
+    display: none;
+}
+.main .right .jiuxian:hover{
+    cursor: pointer;
+}
+.main a:hover{
+    color: #c00;
+    text-decoration: underline;
+}
+.main .right .web {
+    width: 85px;
+    float: left;
+    margin-left: 8px;
+}
+.main .right .web .webDropDown{
+    position: absolute;
+    width: 200px;
+    background: #fff;
+    display: none;
+}
+.main .right .web .webDropDown ul{
+    width: 200px;
+}
+.main .right .web .webDropDown ul li{
+    list-style: none;
+}
+.main .right .web .webDropDown ul li table{
+    width: 200px;
+    table-layout:fixed;
+}
+.main .right .web .webDropDown ul li table tr td{
+    text-align: center;
+}
+.main .right .web .webDropDown ul li table tr th{
+    text-align: center;
+}
+.main .right .kehu {
+    width: 68px;
+    float: left;
+    margin-left: 5px;
+}
+.main .right .kehu .kehuDropDown{
+    position: absolute;
+    width: 68px;
+    background: #fff;
+    display: none;
+}
+.main .right .ceo{
+    margin-right: 7px;
+}
+.main .right .club{
+    margin-left: 15px;
+}
+.main .right .busy{
+    margin-left: 15px;
+}
+.main .right .shoujiguang{
+    margin-left: 15px;
+}
+
+.main .right .hotline{
+    margin-left: 15px;
+}
+.main .right .shoujiguangImg{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-left: 358px;
+    margin-top: 26px;
+    display: none;
+}
+.header{
+    height: 125px;
+}
+.header .midHeaderCon{
+    width: 1200px;
+    height: 125px;
+    margin:0 auto;
+}
+.header .midHeaderCon .headerLogo{
+    width: 257px;
+    height: 65px;
+    float: left;
+    padding-top: 30px;
+
+}
+.header .midHeaderCon .headerSearch{
+    width: 540px;
+    height: 61px;
+    float: left;
+    margin: 32px 0 0 20px;
+}
+.header .midHeaderCon .headerSearch .searchHome{
+    width: 540px;
+    height: 38px;
+}
+.header .midHeaderCon .headerSearch .searchHome .search-from{
+    line-height: 22px;
+    width: 440px;
+    height: 22px;
+    padding: 5px;
+    border: 2px solid #c00;
+    color: #666;
+    float: left;
+}
+.header .midHeaderCon .headerSearch .searchHome .search-btn{
+    display: inline-block;
+    width: 86px;
+    height: 36px;
+    line-height: 32px;
+    text-align: center;
+    border: 2px solid #c00;
+    font-size: 16px;
+    color: #fff;
+    background: #c00;
+    cursor: pointer;
+    float: right;
+}
+.header .midHeaderCon .headerProtect{
+    width: 363px;
+    height: 64px;
+    float: right;
+    margin:33PX 0 0 0;
+}
+.header .midHeaderCon .headerSearch .hotWords{
+    width: 540px;
+    height: 23px;
+    padding-top: 5px;
+
+}
+.header .midHeaderCon .headerSearch .hotWords a{
+    border-right: 1px #ccc solid;
+    float: left;
+    display: inline-block;
+    color: #999;
+    padding: 0 6px;
+    height: 14px;
+    position: relative;
+    margin-left: 3px;
+    line-height: 14px;
+}
+.header .midHeaderCon .headerSearch .hotWords a:hover{
+    color: #c00;
+    text-decoration: underline;
+}
+.navWrap{
+    height: 34px;
+    background: #990000;
+    position: relative;
+}
+.navWrap .nav{
+    width: 1200px;
+    height: 34px;
+    margin: 0 auto;
+}
+.navWrap .nav .navCategoryMenu{
+    width: 190px;
+    height: 34px;
+    background: #CE171F;
+    float: left;
+}
+.navWrap .nav .navCategoryMenu h2{
+    width: 190px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    display: block;
+}
+.navWrap .nav  .navList{
+    float: left;
+    height: 34px;
+    width: 890px;
+}
+.navWrap .nav .navList li{
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    list-style: none;
+    float: left;
+}
+
+.navWrap .nav .navList li a{
+    color: #fff;
+    font-size: 14px;
+}
+.navWrap .nav .navList li a:hover{
+    background: #B40C10;
+}
+.navWrap .nav .navPromotion{
+    width: 120px;
+    height: 34px;
+    float: right;
+}
+.navWrap .nav .navCategoryMenu .categoryBox{
+    display: block;
+    width: 190px;
+    height: 472px;
+    position: absolute;
+    z-index: 2;
+    margin-bottom:0;
+
+
+}
+.navWrap .nav .navCategoryMenu .categoryBox li{
+    width: 187px;
+    height: 81px;
+    float: left;
+    display: block;
+    border-bottom: 1px solid #e4e4e4;
+    border-left:3px solid white;
+    background: #f9f9f9;
+}
+.navWrap .nav .navCategoryMenu .categoryBox li .catItemCon{
+    margin-left: 3px;
+}
+.navWrap .nav .navCategoryMenu .categoryBox li .catItemCon h3{
+    width: 163px;
+    height: 32px;
+    color: #333;
+    line-height: 32px;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.navWrap .nav .navCategoryMenu .categoryBox li .catItemCon .categoryCon p{
+    width: 170px;
+    height: 20px;
+    margin-left: 12px;
+}
+.navWrap .nav .navCategoryMenu .categoryBox li .catItemCon .categoryCon p a{
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 4px;
+    color: #666;
+    float: left;
+}
+.navWrap .nav .navCategoryMenu .categoryBox .catItem .catItemCon .seleWine{
+
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 15px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    background: url("../images/public-24.png") no-repeat -73px -260px;
+}
+.navWrap .nav .navCategoryMenu .categoryBox .catItem .catItemCon .liquor{
+    margin-left: 15px;
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    background: url("../images/public-24.png") no-repeat 2px -100px;
+
+}
+.navWrap .nav .navCategoryMenu .categoryBox .catItem .catItemCon .wine{
+    margin-left: 15px;
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    background: url("../images/public-24.png") no-repeat -16px -102px;
+}
+.navWrap .nav .navCategoryMenu .categoryBox .catItem .catItemCon .yang{
+    margin-left: 15px;
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    background: url("../images/public-24.png") no-repeat -37px -100px;
+
+}
+.navWrap .nav .navCategoryMenu .categoryBox .catItem .catItemCon .health{
+    margin-left: 15px;
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    background: url("../images/public-24.png") no-repeat -59px -100px;
+
+
+}
+.navWrap .nav .navCategoryMenu .categoryBox .catItem .catItemCon .wineTools{
+    margin-left: 15px;
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    background: url("../images/public-24.png") no-repeat -79px -100px;
+
+}
+.navWrap .nav .navCategoryMenu .menuBox{
+    width: 615px;
+    height: 470px;
+    position: absolute;
+    top:39px;
+    margin-left: 190px;
+    z-index: 1;
+}
+.mainBanner {
+    height: 470px;
+    width: 100%;
+    overflow: hidden;
+}
+.mainBanner .bigImg img{
+    display: block;
+    margin-left: -250px;
+}
+.mainBanner .mav{
+    width: 190px;
+    height: 470px;
+    position: absolute;
+    top:279px;
+    left: 1140px;
+    padding: 0;
+}
+.mainBanner .mav a{
+    display: inline-block;
+    width: 190px;
+    height: 156px;
+}
+.mainBanner .mav a img{
+    display: inline-block;
+    width: 190px;
+    height: 156px;
+}
+.mainBanner .smallBtn{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    margin-top: -35px;
+    z-index:0;
+}
+.mainBanner .smallBtn .smallUl{
+    width: 100%;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.mainBanner .smallBtn .smallUl li{
+    background: #000;
+    border-radius: 50%;
+    box-shadow: 0 0 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 8px;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    width: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.navWrap .nav .navCategoryMenu .menuBox .menuCon{
+    width: 400px;
+    height: 470px;
+    margin-top: 5px;
+    margin-left: -4px;
+}
+.navWrap .nav .navCategoryMenu .menuBox .menuCon .menuItem{
+    width: 400px;
+}
+.navWrap .nav .navCategoryMenu .menuBox .menuCon .menuItem .menuItemTitle{
+    width: 90px;
+    float: left;
+    text-align: center;
+    background: #F1F1F1;
+
+}
+.navWrap .nav .navCategoryMenu .menuBox .menuCon .menuItem .menuItemCon{
+    width: 310px;
+    float: right;
+    background: #FFF;
+
+}
+.navWrap .nav .navCategoryMenu .menuBox .menuCon .menuItem .menuItemCon a:hover{
+    color: #CE171F;
+}
+.hot{
+    color: #f60;
+}
+.navWrap .nav .navCategoryMenu .menuBox .menuCon .menuItem .menuItemTitle h4{
+    width: 40px;
+    line-height: 22px;
+    border-top: 1px solid #f1f1f1;
+    display: inline-block;
+}
+
+.navWrap .nav .navCategoryMenu .menuBox .menuCon .menuItem .menuItemCon .menuCon-list  a{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 8px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    background: url(../images/menuLine.jpg) no-repeat scroll left center;
+}
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: "...";
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+}
+.contentFirst{
+    width: 1200px;
+    height: 500px;
+    margin: 10px auto;
+}
+.contentFirst .tabBox{
+    width: 920px;
+    height: 499px;
+    float: left;
+}
+.contentFirst .tabBox .tabNav{
+    width: 920px;
+    height: 38px;
+}
+.contentFirst .tabBox .tabNav ul li{
+    float: left;
+    line-height: 38px;
+    width: 180px;
+    height: 38px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+    border-left: 1px solid rgb(236, 236, 236);
+    border-right: 1px solid rgb(236, 236, 236);
+    border-bottom: 1px solid rgb(236, 236, 236);
+    border-top: 2px solid rgb(236, 236, 236);
+    background: #F9F9F9;
+}
+
+.contentFirst .tabBox .tabConWrap {
+    width: 920px;
+    height: 461px;
+}
+.contentFirst .tabBox .tabConWrap .contentFirst-tab{
+    width: 910px;
+    height: 431px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contentFirst .tabBox .tabConWrap .contentFirst-tab ul{
+    width: 910px;
+    height: 432px;
+}
+.contentFirst .tabBox .tabConWrap .contentFirst-tab ul li{
+    width: 182px;
+    height: 196px;
+    float: left;
+    margin-top: 20px;
+}
+.contentFirst .tabBox .tabConWrap .contentFirst-tab ul li .indexTabPic{
+    width: 182px;
+    height: 160px;
+}
+.contentFirst .tabBox .tabConWrap .contentFirst-tab ul li .indexTabTIt{
+    width: 182px;
+    height: 18px;
+
+}
+.contentFirst .tabBox .tabConWrap .contentFirst-tab ul li .indexTabTIt a{
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    width: 160px;
+}
+.contentFirst .tabBox .tabConWrap .contentFirst-tab ul li .indexTabPrice{
+    width: 182px;
+    height: 18px;
+}
+.contentFirst .tabRight{
+    width: 270px;
+    height: 500px;
+
+    float: right;
+}
+.contentFirst .tabRight .tabNew{
+    width: 270px;
+    height: 140px;
+}
+.contentFirst .tabRight .tuanBox{
+    width: 270px;
+    height: 159px;
+    margin: 10px 0;
+}
+.contentFirst .tabRight .adFocus{
+    width: 270px;
+    height: 180px;
+}
+.contentFirst .tabRight .tabNew .indexTabNewNav{
+    width: 270px;
+    height: 35px;
+}
+.contentFirst .tabRight .tabNew .indexTabNewCon{
+    width: 270px;
+    height: 105px;
+}
+.contentFirst .tabRight .tabNew .indexTabNewNav ul{
+    width: 270px;
+}
+.contentFirst .tabRight .tabNew .indexTabNewNav ul li {
+    float: left;
+    width: 133px;
+    height: 35px;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(236, 236, 236);
+    background: rgb(249, 249, 249);
+    list-style: none;
+}
+.contentFirst .tabRight .tabNew .indexTabNewCon .gonggao{
+    width: 258px;
+    height: 84px;
+
+}
+.contentFirst .tabRight .tabNew .indexTabNewCon .cuxiao{
+    width: 258px;
+    height: 84px;
+    display: none;
+}
+.contentFirst .tabRight .tabNew .indexTabNewCon .gonggao ul li{
+    list-style: none;
+    float: left;
+    width: 114px;
+    height: 28px;
+    margin-left: 10px;
+    display: inline;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.contentFirst .tabRight .tabNew .indexTabNewCon .cuxiao ul li{
+    list-style: none;
+    float: left;
+    width: 114px;
+    height: 28px;
+    margin-left: 10px;
+    display: inline;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    margin-top: 5px;
+}
+.contentFirst .tabRight .tabNew .indexTabNewCon a:hover{
+    color: #ff7700;
+    text-decoration: underline;
+    border-top: none;
+}
+.indexAdBox {
+    width: 1200px;
+    height: 130px;
+    margin:0 auto;
+}
+.indexAdBox p{
+    width: 290px;
+    height: 126px;
+    float: left;
+    display: block;
+    margin-left: 90px;
+}
+.indexAdBox p a img{
+    width: 290px;
+    height: 126px;
+    border: 0;
+}
+.raceBox{
+    width: 1200px;
+    height: 299px;
+    margin: 0 auto;
+}
+.raceBox .titleBox{
+    width: 1200px;
+    height: 40px;
+    position: relative;
+}
+.raceBox .raceListWrap{
+    width: 1200px;
+    height: 259px;
+}
+.raceBox .titleBox .leftTitle{
+    width: 110px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+
+}
+.raceBox .titleBox .leftTitle i{
+    background: url("../images/newIndexIcon-24.png") no-repeat 0 0;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+}
+.raceBox .titleBox .leftTitle span{
+    margin-left: 10px;
+    width: 68px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 17px;
+    color: #333;
+}
+.winePub{
+    width: 1200px;
+    height: 690px;
+    margin: 10px auto 0;
+}
+.winePub .winePub-titleBox{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    background: #f9f9f9;
+    padding: 0 3px;
+}
+.winePub .winePub-titleBox .wP-lTitle{
+    width: 89px;
+    height: 40px;
+    float: left;
+}
+.winePub .winePub-titleBox .wP-lTitle i{
+    width: 28px;
+    height: 29px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    font-family: Arial;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 29px;
+    font-style: normal;
+    background: url("../images/newIndexIcon-24.png") no-repeat 0 -95px;
+}
+.winePub .winePub-titleBox .wP-lTitle span{
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+    font-family: 微软雅黑;
+}
+.winePub .winePub-titleBox .wP-rMenu{
+    width: 400px;
+    height: 40px;
+    float: right;
+    margin-left: 50px;
+    color: #999;
+}
+.winePub .winePub-titleBox .wP-rMenu a{
+    height: 14px;
+    padding: 0 7px;
+    color: #999;
+}
+.winePub .winePub-titleBox .wP-rMenu a:hover {
+    color: #c00;
+}.winePub .winePub-titleBox .wP-rMenu a:last-child:hover{
+    color: #fff;
+    text-decoration: none;
+ }
+.winePub .winePub-titleBox .wP-rMenu .goWinePub{
+    padding: 4px 7px;
+    color: #fff;
+    height: 21px;
+    border-radius: 2px;
+    background: #D43D4E;
+}
+.winePub .winePub-titleBox .wP-rMenu .goWinePub span{
+    font-family: 宋体;
+    padding-left: 5px;
+    font-size: 12px;
+    text-align: left;
+}
+.winePub .winePub-conBox{
+    width: 1200px;
+    height: 488px;
+}
+.winePub .winePub-conBox .wP-con-Lbanner{
+    width: 210px;
+    height: 485px;
+    float: left;
+}
+.winePub .winePub-conBox .wP-con-Rlist{
+    width: 988px;
+    height: 485px;
+    float: right;
+}
+.winePub .winePub-conBox .wP-con-Rlist ul{
+    width: 988px;
+    height: 486px;
+    margin:0;
+    padding: 0;
+}
+.winePub .winePub-conBox .wP-con-Rlist ul li{
+    float: left;
+    width: 196px;
+    height: 232px;
+    border-bottom: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+    padding-top: 10px;
+    list-style: none;
+}
+.winePub .winePub-conBox .wP-con-Rlist ul li .wP-con-Rlist-Pic{
+    width: 160px;
+    height: 160px;
+    margin:0 18px;
+}
+.winePub .winePub-conBox .wP-con-Rlist ul li .wP-con-Rlist-Tit{
+    width: 160px;
+    height: 36px;
+    padding:0 18px;
+    margin-top: 5px;
+    color: rgb(102, 102, 102);
+}
+.winePub .winePub-conBox .wP-con-Rlist ul li .wP-con-Rlist-Tit a{
+    COLOR: #666;
+    display: inline-block;
+    width: 160px;
+    height: 36px;
+}
+._nowPrice{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "微软雅黑";
+    color: #CD0100;
+    display: inline;
+    vertical-align: middle;
+}
+.winePub .winePub-conBox .wP-con-Rlist ul li .wP-con-Rlist-Price{
+    width: 178px;
+    padding: 0 0 0 18px;
+    height: 18px;
+    overflow: hidden;
+    rgb(102, 102, 102)
+    line-height: 18px;
+    white-space: nowrap;
+}
+.winePub .winePub-RankingList{
+    width: 1200px;
+    height: 161px;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+}
+.winePub .winePub-RankingList .hotWordBox{
+    float: left;
+    width: 186px;
+    border-right: 1px solid #ececec;
+    background: #f9f9f9;
+    height: 131px;
+}
+.winePub .winePub-RankingList .hotWordBox ul{
+    width: 186px;
+    height: 127px;
+    margin:0;
+    padding: 0;
+}
+.winePub .winePub-RankingList .hotWordBox ul li{
+    width: 186px;
+    height: 60px;
+    margin-top: 7px;
+    list-style: none;
+    text-align: left;
+}
+.winePub .winePub-RankingList .hotWordBox ul li h3{
+
+    margin:0 8px;
+    width: 181px;
+    height: 19px;
+}
+.winePub .winePub-RankingList .hotWordBox ul li h3 i{
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #d02229;
+    overflow: hidden;
+}
+.winePub .winePub-RankingList .hotWordBox ul li h3 span{
+    font-size: 14px;
+    display: inline-block;
+    color: #cc0000;
+    font-weight: bold;
+    width: 56px;
+    height: 19px;
+    margin-left: 3px;
+}
+.winePub .winePub-RankingList .hotWordBox ul li p {
+    width: 180px;
+    height: 36px;
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 8px;
+    line-height: 18px;
+}
+.winePub .winePub-RankingList .hotWordBox ul li p a{
+    float: left;
+    display: inline-block;
+    width: 48px;
+    height: 18px;
+    text-align: left;
+    margin-left: 5px;
+    COLOR: #666;
+}
+.winePub .winePub-RankingList .hotWordBox ul li p a:hover {
+    color: #c00;
+}
+
+.winePub .winePub-RankingList .topTenBox{
+    width: 985px;
+    height: 162px;
+    float: right;
+}
+.winePub .winePub-RankingList .topTenBox .topTenNavBox{
+    width: 985px;
+    height: 32px;
+    line-height: 32px;
+}
+.winePub .winePub-RankingList .topTenBox .topTenConWrap{
+    width: 985px;
+    height: 127px;
+}
+.winePub .winePub-RankingList .topTenBox .topTenNavBox .topTenWrap{
+    float: left;
+    margin: 0;
+    width: 130px;
+    height: 32px;
+}
+.winePub .winePub-RankingList .topTenBox .topTenNavBox .topTenWrap i{
+    display: inline-block;
+    vertical-align: middle;
+    width: 11px;
+    height: 13px;
+    overflow: hidden;
+    background: url("../images/newIndexIcon-24.png") no-repeat -38px 0;
+    margin-left: 15px;
+}
+.winePub .winePub-RankingList .topTenBox .topTenNavBox .topTenWrap span{
+    font-size: 12px;
+    color: #d43d4e;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 84px;
+    height: 31px;
+    font-weight: 700;
+}
+.winePub .winePub-RankingList .topTenBox .topTenNavBox .topTenNav{
+    width: 300px;
+    height: 26px;
+    float: right;
+
+}
+.winePub .winePub-RankingList .topTenBox .topTenNavBox .topTenNav a:first-child{
+    color: #cc0000;
+}
+.winePub .winePub-RankingList .topTenBox .topTenNavBox .topTenNav a{
+    width: 50px;
+    height: 12px;
+    display: inline-block;
+    margin:0 10px;
+    float: left;
+    color: #666;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 8px;
+    border-right: 1px solid #666;
+}
+.winePub .winePub-RankingList .topTenBox .topTenConWrap ul {
+    width: 985px;
+    height: 100px;
+    overflow: hidden;
+    float: left;
+}
+.winePub .winePub-RankingList .topTenBox .topTenConWrap ul li{
+    width: 197px;
+    height: 90px;
+    float: left;
+    padding-right: 7px;
+
+}
+.winePub .winePub-RankingList .topTenBox .topTenConWrap ul li .topTenPic{
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.winePub .winePub-RankingList .topTenBox .topTenConWrap ul li .topTenPic a img{
+    width: 90px;
+    height: 90px;
+    display: block;
+}
+.winePub .winePub-RankingList .topTenBox .topTenConWrap ul li .topTenTitBox{
+    width: 80px;
+    height: 36px;
+    padding-top: 5px;
+    float: right;
+}
+.winePub .winePub-RankingList .topTenBox .topTenConWrap ul li .topTenTitBox .topTenTit{
+    width: 80px;
+    height: 36px;
+    line-height: 18px;
+    float: right;
+
+}
+.winePub .winePub-RankingList .topTenBox .topTenConWrap ul li .topTenTitBox .topTenTit a{
+    width: 80px;
+    height: 36px;
+    display: block;
+    color: #666;
+    cursor: pointer;
+}
+.winePub .winePub-RankingList .topTenBox .topTenConWrap ul li .topTenPrice{
+    font-size: 16px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 5px;
+    color: #cc0000;
+    width: 80px;
+    background: #fff;
+    float: right;
+}
+.contentTree{
+    width: 1200px;
+    height: 349px;
+    margin:0 auto;
+}
+.contentTree .ttBox{
+    width: 1200px;
+    height: 43px;
+}
+.contentTree .ttBox ul li{
+    float: left;
+    width: 90px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 15px;
+    color: #666;
+    cursor: pointer;
+}
+.contentTree .ttSlider{
+    position: relative;
+    width: 90px;
+    height: 9px;
+}
+.contentTree .ttSlider b{
+    border-width: 7px;
+    border-style: dashed dashed solid;
+    border-color: transparent transparent #dd102e;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 0;
+    height: 0;
+    width: 0;
+    margin-top: -8px;
+    position: absolute;
+    top: -7px;
+    left: 38px;
+    font-weight: bold;
+}
+.contentTree .ttSlider span{
+    width: 90px;
+    height: 2px;
+    background: #dd102e;
+    display: inline-block;
+    position: absolute;
+    top:-1px;
+}
+.contentTree .logoCon{
+    width: 1200px;
+    height: 306px;
+}
+.contentTree .logoCon .logoAll{
+    width: 1169px;
+    height: 274px;
+}
+.contentTree .logoCon .logoAll ul{
+    width: 1169px;
+    height: 274px;
+}
+.contentTree .logoCon .logoAll ul li{
+    width: 175px;
+    height: 80px;
+    margin:0 17px 17px 0;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+.boutique{
+    width: 1200px;
+    height: 174px;
+    margin:10px auto;
+}
+.boutique .boutique-title{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+}
+.boutique .boutique-menu{
+    width: 1200px;
+    height: 140px;
+    padding-top: 3px;
+}
+.boutique .boutique-menu dl{
+    width: 1190px;
+    height: 135px;
+    margin: 0 auto;
+}
+.boutique .boutique-menu dl dt{
+    margin-bottom: 5px;
+    float: left;
+    border-bottom: 4px solid #fff;
+    overflow: hidden;
+    width: 107px;
+    height: 64px;
+}
+.boutique .boutique-menu dl dd{
+    margin-bottom: 5px;
+    float: left;
+    width: 479px;
+    height: 64px;
+}
+.boutique .boutique-menu dl dd p{
+    width: 463px;
+    height: 25px;
+    display: inline-block;
+}
+.boutique .boutique-menu dl dd p a{
+    padding: 0 8px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    display: inline-block;
+    color: #666;
+}
+.boutique .boutique-menu dl dd p a:hover{
+    text-decoration: none;
+}
+.boutique .boutique-title .jpTitle{
+    width: 120px;
+    height: 40px;
+    padding-left: 2px;
+}
+.boutique .boutique-title .jpTitle i{
+    display: inline-block;
+    background: #ff9000;
+    width: 7px;
+    height: 18px;
+    vertical-align: middle;
+
+}
+.boutique .boutique-title .jpTitle span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 17px;
+    color: #333;
+    margin-left: 10px;
+}
+.footer{
+    width: 1423px;
+    height: 568px;
+}
+.footer .footerTopBox{
+    width: 1423px;
+    height: 289px;
+    background: #333333;
+}
+.footer .footerBotBox{
+    width: 1423px;
+    height: 279px;
+    position: relative;
+
+}
+.footer .footerBotBox .footerBot{
+    width: 1200px;
+    height: 219px;
+    margin: 0 auto;
+    position: absolute;
+    top: 20px;
+    left:50%;
+    margin-left: -600px;
+}
+.footer .footerBotBox .footerBot .footerBotLeft{
+    float: left;
+    width: 760px;
+    overflow: hidden;
+    height: 219px;
+}
+.footer .footerBotBox .footerBot .footerBotLeft p a:hover{
+    color: #c00;
+}
+.footer .footerBotBox .footerBot .footerBotLeft .footerInfo a{
+    display: inline-table;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 8px;
+    overflow: hidden;
+    position: relative;
+    color: rgb(102, 102, 102);
+}
+.footer .footerBotBox .footerBot .footerBotLeft .friendLink a{
+    display: inline-table;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 8px;
+    overflow: hidden;
+    position: relative;
+    color: #999;
+}
+.footer .footerBotBox .footerBot .footerBotCode{
+    width: 240px;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    height: 129px;
+}
+.footer .footerTopBox .footerTop{
+    width: 1200px;
+    height: 84px;
+    margin: 0 auto;
+    border-bottom: 1px solid #494949;
+    line-height: 84px;
+
+
+}
+.footer .footerTopBox .footerTop .footerContact{
+    width: 470px;
+    height: 84px;
+    float: left;
+
+}
+.footer .footerTopBox .footerTop .footerContact i{
+    width: 40px;
+    height: 40px;
+    margin-right: 18px;
+    display: inline-block;
+    float: left;
+    margin-top: 22px;
+    background: url("../images/public-24.png") no-repeat -144px -22px;;
+}
+.footer .footerTopBox .footerTop .footerContact b{
+    width: 169px;
+    height: 40px;
+    margin-right: 25px;
+    float: left;
+    display: inline-block;
+    font-size: 24px;
+    color: #c00;
+
+}
+.footer .footerTopBox .footerTop .footerContact span{
+    font-size: 14px;
+    color: #fff;
+    margin-right: 8px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+
+}
+.footer .footerTopBox .footerTop .footerTopRight{
+    width: 336px;
+    height: 84px;
+    float: right;
+    padding: 26px 0;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-tit{
+    float: left;
+    line-height: 32px;
+    color: #fff;
+    padding-right: 10px;
+    display: block;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-form{
+    width: 240px;
+    height: 30px;
+    float: left;
+    border: 1px solid #494949;
+    position: relative;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-form input{
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 6px;
+    background: 0;
+    border: 0;
+    float: left;
+    color: #fff;
+    outline: 0;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-form span{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    position: absolute;
+    left: 6px;
+    top: 0;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-form i{
+    display: inline-block;
+    width: 22px;
+    height: 18px;
+    background:url("../images/public-24.png") no-repeat -133px 0;
+    margin: 6px 0 0 10px;
+    cursor: pointer;
+    float: left;
+}
+
+
+.footer .footerTopBox .footerServices{
+    width: 1200px;
+    height: 204px;
+    margin:0 auto;
+    padding: 30px 0 60px;
+}
+.footer .footerTopBox .footerServices ul{
+    padding: 0;
+    width: 1200px;
+    height: 114px;
+}
+.footer .footerTopBox .footerServices ul li{
+    width: 158px;
+    height: 114px;
+    list-style: none;
+    margin-right: 15px;
+    display: inline-block;
+    padding: 0;
+}
+.footer .footerTopBox .footerServices ul li h3{
+    font-weight: normal;
+    height: 26px;
+    line-height: 26px;
+    padding: 5px 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+
+ }
+.footer .footerTopBox .footerServices ul li h3 i{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 9px;
+    float: left;
+}
+.footer .footerTopBox .footerServices ul li h3 span{
+    display: inline-block;
+    width: 95px;
+    font-size: 14px;
+    color: #fff;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.footer .footerTopBox .footerServices ul li p{
+    width: 95px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: -3px;
+}
+.footer .footerTopBox .footerServices ul li p a{
+    display: inline-block;
+    width: 95px;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #ccc;
+}
+.jxMicroblogging {
+    width: 158px;
+    height: 92px;
+    float: right;
+}
+.jxMicroblogging a:hover{
+    text-decoration: none;
+}
+.jxMicroblogging .sinaMb{
+    margin-top: 7px;
+    width: 130px;
+    height: 28px;
+}
+.jxMicroblogging .sinaMb i{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 9px;
+    float: left;
+    cursor: pointer;
+    background: url("../images/public-24.png") no-repeat -140px -74px;
+}
+.jxMicroblogging .sinaMb a{
+    height: 27px;
+    line-height: 27px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    float: left;
+}
+.jxMicroblogging .weixin {
+    width: 130px;
+    height: 28px;
+    margin-top: 15px;
+    position: relative;
+}
+.jxMicroblogging .weixin .weixinCon{
+    width: 130px;
+    height: 28px;
+}
+.jxMicroblogging .weixin .weixinCon i{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 9px;
+    float: left;
+    cursor: pointer;
+    background: url("../images/public-24.png") no-repeat -103px -74px;
+}
+.jxMicroblogging .weixin .weixinCon a{
+    height: 27px;
+    line-height: 27px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.jxMicroblogging .weixin .weixinCode{
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    left: 37px;
+    top: 27px;
+    display: none;
+}
+.fixLeft{
+    width: 40px;
+    height: 205px;
+    position: fixed;
+    top:50%;
+    margin-top: -102px;
+    left: 45px;
+}
+.fixLeft .floor1{
+    position: absolute;
+    top:0;
+    left: 0;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.fixLeft .floor1 a{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block;
+    background: #eee;
+
+}
+.fixLeft .floor1 a i{
+    width: 12px;
+    height: 20px;
+    background:url("../images/newIndexIcon-24.png")  no-repeat  0 -181px;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+}
+.fixLeft .floor2{
+    position: absolute;
+    top: 32px;
+    left: 0;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.fixLeft .floor2 a{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block;
+    background: #eee;
+
+}
+.fixLeft .floor2 a i{
+    width: 12px;
+    height: 20px;
+    background:url("../images/newIndexIcon-24.png")  no-repeat -18px -180px;
+    position: absolute;
+    left: 11px;
+    top: 5px;
+}
+.fixLeft .floor3{
+    position: absolute;
+    top: 64px;
+    left: 0;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.fixLeft .floor3 a{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block;
+    background: #eee;
+
+}
+.fixLeft .floor3 a i{
+    width: 18px;
+    height: 20px;
+    background:url("../images/newIndexIcon-24.png")  no-repeat -31px -181px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.fixLeft .floor4{
+     position: absolute;
+     top: 96px;
+     left: 0;
+     font-size: 12px;
+     text-align: center;
+     cursor: pointer;
+ }
+.fixLeft .floor4 a{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block;
+    background: #eee;
+
+}
+.fixLeft .floor4 a i{
+    width: 12px;
+    height: 20px;
+    background:url("../images/newIndexIcon-24.png")  no-repeat -56px -180px;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+}
+.fixLeft .floor5{
+    position: absolute;
+    top: 128px;
+    left: 0;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.fixLeft .floor5 a{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block;
+    background: #eee;
+
+}
+.fixLeft .floor5 a i{
+    width: 18px;
+    height: 20px;
+    background:url("../images/newIndexIcon-24.png")  no-repeat -39px -213px;
+    position: absolute;
+    left: 7px;
+    top: 5px;
+}
+.fixLeft .floorback{
+    position: absolute;
+    top: 160px;
+    left: 0;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.fixLeft .floorback a{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block;
+    background: #eee;
+}
+.fixLeft .floorback a i{
+    width: 15px;
+    height: 15px;
+    background:url("../images/newIndexIcon-24.png")  no-repeat -74px -190px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+
